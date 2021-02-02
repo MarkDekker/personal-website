@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: playfair display, serif;
+  font-family: bwnistaint-xbd, sans-serif;
   line-height: 1.2
 }
 
@@ -87,7 +87,7 @@ h6,
 
 .btn {
   font-size: 22px;
-  font-family: playfair display, serif;
+  font-family: bwnistaint-xbd, sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -427,7 +427,8 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: var(--primary-color);
+  background-color: rgba(0, 0, 0, .3);
+  backdrop-filter: blur(10px);
   padding: 15px 100px
 }
 
@@ -440,9 +441,20 @@ textarea.form-control {
 @media(max-width:991px) {
   .navigation {
     padding: 20px;
-    background: var(--primary-color)
+    backdrop-filter: blur(10px);
+    /* background: var(--primary-color) */
   }
 }
+
+/* .navbar-collapse.show {
+  background: var(--primary-color)
+  backdrop-filter: blur(10px);
+}
+
+.navbar-collapse.collapsing {
+  background: var(--primary-color)
+  backdrop-filter: blur(10px);
+} */
 
 .navbar .nav-item .nav-link {
   font-family: bwnistaint-xbd;

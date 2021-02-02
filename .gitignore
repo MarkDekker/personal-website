@@ -1,6 +1,7 @@
 ### Hugp
 /public/
 /resources/_gen/
+exampleSite/
 
 ### macOS
 .DS_Store

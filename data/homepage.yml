@@ -15,7 +15,7 @@ about:
     label: More Details
     URL: about
 skill:
-  enable: true
+  enable: false
   title: Skills
   item:
   - title: Geological Interpretations
@@ -66,7 +66,7 @@ service:
   enable: true
   title: Services
   item:
-  - title: UI Design
+  - title: Geological Interpretation
     icon: ti-palette
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
@@ -82,7 +82,7 @@ service:
       tempor incididunt ut labore et dolore magna aliqua.
     highlighted: false
 portfolio:
-  enable: true
+  enable: false
   title: Portfolio
   item_show: "5"
 testimonial:

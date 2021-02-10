@@ -1,16 +1,18 @@
 ---
 banner:
-  title: Hi! I’m <br> Kees Dekker <br> Mining Investment Analyst
+  title: Kees Dekker <br> Mining Investment Analyst
 about:
   enable: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur.
+  content: Kees has 41 years of experience in the international mining industry, with
+    a large majority of that time spent in Southern Africa and South America.  Although
+    a trained geologist, having worked as an exploration and mine geologist, Kees
+    has also held a number of senior managerial positions in both large and junior
+    mining companies, providing him with a wealth of knowledge and experience from
+    his involvement with the evaluation of mining projects, business and investment
+    development and technical valuations.
   button:
     enable: true
-    label: know more
+    label: More Details
     URL: about
 skill:
   enable: true

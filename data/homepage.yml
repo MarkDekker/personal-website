@@ -21,9 +21,9 @@ skill:
   - title: Geological Interpretations
     progress: ''
     color: ''
-  - title: Logo Design
-    progress: 60%
-    color: "#9473e6"
+  - title: Technical Reviews
+    progress: ''
+    color: ''
   - title: After Effects
     progress: 80%
     color: "#bdecf6"

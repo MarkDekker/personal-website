@@ -1,16 +1,13 @@
-<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-    <defs>
-        <style>
-            .cls-1 {
-                fill: none;
-            }
-        </style>
-    </defs>
-    <title>text-mining</title>
-    <rect x="18" y="28" width="8" height="2" />
-    <rect x="18" y="24" width="12" height="2" />
-    <rect x="18" y="20" width="12" height="2" />
-    <polygon
-        points="16.001 26.473 16 26.473 4.284 12.955 9.5 6 22.5 6 27.716 12.955 24.476 16.692 25.989 18.002 30.284 13.045 23.5 4 8.5 4 1.716 13.045 14.488 27.782 16.001 26.473" />
-    <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="18" y="28" width="8" height="2"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="18" y="24" width="12" height="2"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="18" y="20" width="12" height="2"></rect>
+            <polygon id="Path" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="16.001 26.473 16 26.473 4.284 12.955 9.5 6 22.5 6 27.716 12.955 24.476 16.692 25.989 18.002 30.284 13.045 23.5 4 8.5 4 1.716 13.045 14.488 27.782"></polygon>
+            <rect id="_Transparent_Rectangle_" x="0" y="0" width="32" height="32"></rect>
+        </g>
+    </g>
 </svg>

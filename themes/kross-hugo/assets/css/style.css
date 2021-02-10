@@ -4,6 +4,8 @@ PROJECT: Project Name
 VERSION: Versoin Number
 -------------------------------------------------------------------*/
 @import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&display=swap');
 
 @font-face {
   font-family: bwnistaint-xbd;
@@ -35,63 +37,63 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: bwnistaint-xbd, sans-serif;
+  font-family: IBM+Plex+Sans+Condensed, sans-serif;
   line-height: 1.2
 }
 
 h1,
 .h1 {
-  font-size: 80px
+  font-size: 3rem;
 }
 
 @media(max-width:991px) {
 
   h1,
   .h1 {
-    font-size: 65px
+    font-size: 2.2rem;
   }
 }
 
 h2,
 .h2 {
-  font-size: 60px
+  font-size: 2.5rem;
 }
 
 @media(max-width:991px) {
 
   h2,
   .h2 {
-    font-size: 50px
+    font-size: 2.0rem;
   }
 }
 
 h3,
 .h3 {
-  font-size: 40px
+  font-size: 1.5rem;
 }
 
 h4,
 .h4 {
-  font-size: 22px
+  font-size: 1.2rem;
 }
 
 h5,
 .h5 {
-  font-size: 18px
+  font-size: 1.0rem;
 }
 
 h6,
 .h6 {
-  font-size: 14px
+  font-size: 1.0rem;
 }
 
 .btn {
   font-size: 22px;
-  font-family: bwnistaint-xbd, sans-serif;
+  font-family: IBM+Plex+Sans+Condensed, sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 700;
   border: 0;
   position: relative;
   z-index: 1;
@@ -223,7 +225,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: bwnistaint-xbd
+  font-family: 'IBM Plex Sans Condensed'
 }
 
 .bg-cover {
@@ -245,6 +247,10 @@ a:hover {
   left: 0;
   background: #000;
   opacity: .5
+}
+
+.h-full {
+  height: 100%;
 }
 
 .outline-0 {
@@ -336,11 +342,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: playfair display, serif !important
+  font-family: 'IBM Plex Sans Condensed', serif !important
 }
 
 .font-tertiary {
-  font-family: bwnistaint-xbd !important
+  font-family: 'IBM Plex Sans Condensed' !important
 }
 
 .shadow {
@@ -457,7 +463,7 @@ textarea.form-control {
 } */
 
 .navbar .nav-item .nav-link {
-  font-family: bwnistaint-xbd;
+  font-family: 'IBM Plex Sans Condensed';
   text-transform: uppercase;
   padding: 15px
 }
@@ -471,13 +477,16 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 250px 0 200px;
-  position: relative
+  position: relative;
+}
+
+.vertical-centre {
+  align-items: center;
+  min-height: 100vh;
 }
 
 @media(max-width:767px) {
   .hero-area {
-    padding: 200px 0 150px;
     overflow: hidden
   }
 }

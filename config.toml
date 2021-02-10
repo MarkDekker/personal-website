@@ -43,7 +43,7 @@ weight = 5
 #default parameters
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/logo.svg"
 theme_color = "#41228e"
 phone = "+880 2544 658 256"
 email = "steve.fruits@email.com"

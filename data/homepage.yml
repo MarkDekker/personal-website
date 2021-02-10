@@ -12,7 +12,7 @@ about:
     development and technical valuations.
   button:
     enable: true
-    label: know more
+    label: More Details
     URL: about
 skill:
   enable: true

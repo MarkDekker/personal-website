@@ -24,9 +24,9 @@ skill:
   - title: Technical Reviews
     progress: ''
     color: ''
-  - title: After Effects
-    progress: 80%
-    color: "#bdecf6"
+  - title: Due Diligence
+    progress: ''
+    color: ''
   - title: Web App
     progress: 70%
     color: "#ffbcaa"

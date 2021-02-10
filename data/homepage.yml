@@ -59,9 +59,6 @@ education:
   - title: MBA
     year: "1986"
     academy: Graduate School of Business, Cape Town, South Africa
-  - title: Secondary School Certificate
-    year: "1998"
-    academy: Cardiff School
 service:
   enable: true
   title: Services

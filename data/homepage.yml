@@ -27,9 +27,9 @@ skill:
   - title: Due Diligence
     progress: ''
     color: ''
-  - title: Web App
-    progress: 70%
-    color: "#ffbcaa"
+  - title: Cash Flow Modelling and Valuation
+    progress: ''
+    color: ''
 experience:
   enable: true
   title: Experience

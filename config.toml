@@ -24,17 +24,13 @@ link = "plugins/slick/slick.min.js"
 link = "plugins/shuffle/shuffle.min.js"
 
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 2
-[[menu.main]]
 URL = "case_studies"
 name = "Case Studies"
-weight = "3"
+weight = 2
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
+URL = "about"
+name = "About"
+weight = 3
 
 #default parameters
 [params]

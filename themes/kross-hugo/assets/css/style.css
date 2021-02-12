@@ -28,7 +28,7 @@ p {
   font-weight: 400;
   color: #4c4c4c;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.5;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -421,7 +421,7 @@ textarea.form-control {
 }
 
 .card {
-  border: 0
+  border: solid 1px rgb(238, 238, 238);
 }
 
 .card-header {
@@ -631,7 +631,7 @@ textarea.form-control {
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 18px 40px 8px rgba(224, 241, 255, .54) !important
+  box-shadow: 0 18px 40px 8px rgba(201, 219, 235, 0.54) !important
 }
 
 .hover-wrapper {
@@ -722,7 +722,7 @@ textarea.form-control {
 }
 
 .footer-section {
-  padding-top: 0px
+  padding-top: 36px;
 }
 
 .section-on-footer {

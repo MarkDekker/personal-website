@@ -3,9 +3,8 @@
 PROJECT: Project Name
 VERSION: Versoin Number
 -------------------------------------------------------------------*/
-@import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Poppins:wght@700&display=swap');
 
 @font-face {
   font-family: bwnistaint-xbd;
@@ -16,10 +15,13 @@ VERSION: Versoin Number
 
 body {
   line-height: 1.2;
-  font-family: roboto, sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #4c4c4c
+  color: #4c4c4c;
+  background-color: #fff;
+  overflow-x: hidden;
 }
 
 p {
@@ -27,7 +29,7 @@ p {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: roboto, sans-serif
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 h1,
@@ -37,20 +39,21 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: IBM+Plex+Sans+Condensed, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   line-height: 1.2
 }
 
 h1,
 .h1 {
-  font-size: 3rem;
+  font-size: 3.6rem;
 }
 
 @media(max-width:991px) {
 
   h1,
   .h1 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
 }
 
@@ -87,9 +90,13 @@ h6,
   font-size: 1.0rem;
 }
 
+.padding-hero {
+  padding: 0 116px;
+}
+
 .btn {
   font-size: 22px;
-  font-family: IBM+Plex+Sans+Condensed, sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -153,10 +160,6 @@ h6,
   color: var(--primary-color)
 }
 
-body {
-  background-color: #fff;
-  overflow-x: hidden
-}
 
 ::selection {
   background: var(--primary-color);
@@ -225,7 +228,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: 'IBM Plex Sans Condensed'
+  font-family: 'IBM Plex Sans'
 }
 
 .bg-cover {
@@ -338,15 +341,15 @@ a:hover {
 }
 
 .font-primary {
-  font-family: roboto, serif !important
+  font-family: 'IBM Plex Sans', sans-serif !important
 }
 
 .font-secondary {
-  font-family: 'IBM Plex Sans Condensed', serif !important
+  font-family: 'IBM Plex Sans', sans-serif !important
 }
 
 .font-tertiary {
-  font-family: 'IBM Plex Sans Condensed' !important
+  font-family: 'IBM Plex Sans' !important
 }
 
 .shadow {
@@ -442,28 +445,19 @@ textarea.form-control {
   .navigation.nav-bg {
     padding: 15px 20px
   }
-}
 
-@media(max-width:991px) {
   .navigation {
     padding: 20px;
     backdrop-filter: blur(10px);
-    /* background: var(--primary-color) */
+  }
+
+  .padding-hero {
+    padding: 0 36px;
   }
 }
 
-/* .navbar-collapse.show {
-  background: var(--primary-color)
-  backdrop-filter: blur(10px);
-}
-
-.navbar-collapse.collapsing {
-  background: var(--primary-color)
-  backdrop-filter: blur(10px);
-} */
-
 .navbar .nav-item .nav-link {
-  font-family: 'IBM Plex Sans Condensed';
+  font-family: 'IBM Plex Sans';
   text-transform: uppercase;
   padding: 15px
 }
@@ -483,11 +477,17 @@ textarea.form-control {
 .vertical-centre {
   align-items: center;
   min-height: 100vh;
+  width: 100%;
+  display: flex;
 }
 
 @media(max-width:767px) {
   .hero-area {
     overflow: hidden
+  }
+
+  .padding-hero {
+    padding: 0 36px;
   }
 }
 
@@ -767,9 +767,9 @@ blockquote {
 }
 
 .content strong {
-  font-family: playfair display, serif;
+  font-family: 'IBM Plex Sans', serif;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 700;
   color: #000;
   display: inherit;
   line-height: 1.5

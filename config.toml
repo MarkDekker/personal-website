@@ -59,7 +59,7 @@ enable = true
 preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
 [params.contact]
-enable = true
+enable = false
 form_action = "#"
 
 # google map

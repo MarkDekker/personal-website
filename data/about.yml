@@ -14,6 +14,19 @@ work_process:
     icon : "images/icons/print.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
+education:
+  enable: true
+  title: Education
+  item:
+  - title: MSc in Geochemistry
+    year: "1979"
+    academy: University of Utrecht, the Netherlands
+  - title: BCom
+    year: "1984"
+    academy: University of South Africa
+  - title: MBA
+    year: "1986"
+    academy: Graduate School of Business, Cape Town, South Africa
 
 team:
   enable: false

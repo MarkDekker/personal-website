@@ -46,22 +46,10 @@ experience:
     title: Senior UI Designer
     company: THEMEFISHER
     duration: Sep 2014 - Present
-education:
-  enable: true
-  title: Education
-  item:
-  - title: MSc in Geochemistry
-    year: "1979"
-    academy: University of Utrecht, the Netherlands
-  - title: BCom
-    year: "1984"
-    academy: University of South Africa
-  - title: MBA
-    year: "1986"
-    academy: Graduate School of Business, Cape Town, South Africa
 service:
   enable: true
   title: Services
+  description: I offer the best services in the world.
   item:
   - title: Geological Interpretation
     icon: ti-palette
@@ -135,4 +123,4 @@ clients_logo_slider:
     URL: "#"
 blog:
   enable: true
-  title: Blogs
+  title: Case Studies

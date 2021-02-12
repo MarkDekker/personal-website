@@ -2,48 +2,68 @@ baseURL = "/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross | Hugo Portfolio Template"
+title = "Kees Dekker - Mining Investment Analyst"
+
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+
+# js plugin
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+
+[[menu.main]]
+URL = "case_studies"
+name = "Case Studies"
+weight = 2
 [[menu.main]]
 URL = "about"
 name = "About"
-weight = 2
-[[menu.main]]
-URL = "blog"
-name = "Case Studies"
-weight = "3"
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
+weight = 3
+
+#default parameters
 [params]
-address = "125/A, CA Commercial Area, California, USA"
-author = "Kees Dekker"
-copyright = "Copyrighht &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
-description = "This is meta description"
-email = "steve.fruits@email.com"
-google_analitycs_id = "Your ID"
 home = "Home"
-logo = "images/logo.png"
+logo_light = "images/logo_light.svg"
+logo_dark = "images/logo_dark.svg"
+theme_color = "#7B3F26"
 phone = "+880 2544 658 256"
+email = "steve.fruits@email.com"
+address = "125/A, CA Commercial Area, California, USA"
+copyright = "Copyright &copy; 2020"
+author = "Kees Dekker"
+description = "This is meta description"
+google_analitycs_id = "Your ID"
 social = []
-theme_color = "#41228e"
-[params.contact]
-enable = true
-form_action = "#"
-[[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-URL = "plugins/slick/slick.css"
-[[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-URL = "plugins/shuffle/shuffle.min.js"
+
 [params.preloader]
-enable = true
-preloader = ""
+enable = false
+preloader = "images/preloader.gif" # use png, jpg, svg or gif format
+
+[params.contact]
+enable = false
+form_action = "#"
+
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2

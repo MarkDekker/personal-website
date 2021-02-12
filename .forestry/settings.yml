@@ -10,7 +10,7 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: content/blog
+  path: content/case_studies
   label: Post
   create: documents
   match: "*"

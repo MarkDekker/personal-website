@@ -32,6 +32,21 @@ p {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.secondary-title {
+  font-size: 1.6rem;
+}
+
+figure > img {
+  max-width: 100%;
+  margin-bottom: 0.5rem !important;
+}
+
+figcaption {
+  text-align: center;
+  width: 100%;
+  color: #999;
+}
+
 h1,
 h2,
 h3,
@@ -438,7 +453,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .8);
   backdrop-filter: blur(10px);
   padding: 15px 100px
 }
@@ -839,7 +854,7 @@ blockquote {
 }
 
 .page-title {
-  padding: 250px 0 150px
+  padding: 250px 0 0px
 }
 
 .page-title .container {

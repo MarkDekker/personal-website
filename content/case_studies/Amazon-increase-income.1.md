@@ -1,5 +1,6 @@
 ---
-title: "Amazon increase income 1.5 Million"
+title: "Amazon increase income 2 Million"
+subject: "AWS Platinum"
 date: 2019-05-12T12:14:34+06:00
 image: "images/case_studies/post-2.jpg"
 description: "This is meta description."
@@ -10,6 +11,8 @@ et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam
 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 mollit anim id est laborum.
+
+![Click](/images/backgrounds/max-van-den-oetelaar-cAq3crYmgno-unsplash.jpg "Testing this")
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
